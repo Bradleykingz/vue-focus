@@ -61,7 +61,7 @@ export default {
 };
 ```
 
-> NOTE: As opposed to 1.x, in Vue 2.0, directives are updated every time the host component rerenders, not just when the directive expression chages. Somethimes this may be undesirable, especially for the "autofocus" use case. If you want to mimic the 1.x behavior, then add the `.lazy` modifier to the directive, e.g. `v-focus.lazy="true"`.
+> NOTE: As opposed to 1.x, in Vue 2.0, directives are updated every time the host component rerenders, not just when the directive expression chages. Sometimes this may be undesirable, especially for the "autofocus" use case. If you want to mimic the 1.x behavior, then add the `.lazy` modifier to the directive, e.g. `v-focus.lazy="true"`.
 
 ### `mixin`
 
